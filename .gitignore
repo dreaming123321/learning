@@ -1,0 +1,22 @@
+# ===== 编译产物（绝对不要提交）=====
+Debug/
+Release/
+*.o
+*.d
+*.elf
+*.hex
+*.bin
+*.map
+*.list
+*.su
+*.pre
+
+# ===== IDE 本机状态 =====
+.metadata/
+*.launch
+.settings/*.prefs
+
+# ===== CubeMX 临时文件 =====
+*.tmp
+*_save
+MXTmpFiles/
